@@ -251,7 +251,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIR =[",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -260,7 +260,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIR =[\n    os.path.join(BASE_DIR, 'ire/static'),",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -269,7 +269,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIR =[\n    os.path.join(BASE_DIR, 'ire/static'),\n]",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -278,7 +278,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIR =[\n    os.path.join(BASE_DIR, 'ire/static'),\n]\n# Default primary key field type",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -287,7 +287,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIR =[\n    os.path.join(BASE_DIR, 'ire/static'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -296,7 +296,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIR =[\n    os.path.join(BASE_DIR, 'ire/static'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "ire.settings",
         "documentation": {}
     },
