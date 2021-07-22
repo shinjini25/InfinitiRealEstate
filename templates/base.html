@@ -15,10 +15,24 @@
 <!-- Lightbox -->
 <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
 
-<title>Infiniti Real Estate {% block title %}{% endblock %}</title>
+<title>Infiniti Real Estate</title>
 </head>
 <body>
+    <!-- toopbar -->
+    {% include 'partials/_topbar.html' %}
+
+    <!-- navbar -->
+    {% include 'partials/_navbar.html' %}
+
     {% block content %} {% endblock %}
-    <h5>hello</h5>
+
+    <!-- footer-->
+    {% include 'partials/_footer.html' %}
+    
+    <script src="{% static 'js/jquery-3.3.1.min.js' %} "></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %} "></script>
+    <script src="{% static 'js/lightbox.min.js' %} "></script>
+    <script src="{% static 'js/main.js' %} "></script>
+
 </body>
 </html>
