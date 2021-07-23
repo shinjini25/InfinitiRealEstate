@@ -16,12 +16,14 @@ img {
 
   
 #showcase {
-  background: url(../img/showcase.jpg) no-repeat top center fixed/cover;
+  /*  url(../img/showcase.jpg) */
+  background: #C400FF no-repeat top center fixed/cover;
   position: relative;
   min-height: 650px;
   color: #fff;
   padding-top: 6rem; }
   #showcase .home-search {
+    background: #C400FF no-repeat top center fixed/cover;
     min-height: 400px;
     position: relative;
     border-radius: 5px; }

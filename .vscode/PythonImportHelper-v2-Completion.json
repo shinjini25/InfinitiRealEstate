@@ -267,7 +267,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'pages.apps.PagesConfig'",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'listings.apps.ListingsConfig',",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -276,7 +276,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'pages.apps.PagesConfig'\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'listings.apps.ListingsConfig',\n    'realtors.apps.RealtorsConfig',\n]",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -312,7 +312,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'ire.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'ire.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'ireDB',\n        'USER': 'postgres',\n        'PASSWORD': 'password',\n        'HOST': 'localhost'",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -321,7 +321,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'ireDB',\n        'USER': 'postgres',\n        'PASSWORD': 'password',\n        'HOST': 'localhost'\n    }\n}\n# Password validation",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -402,7 +402,7 @@
         "kind": 5,
         "importPath": "ire.urls",
         "description": "ire.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', include('pages.urls')),\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('', include('pages.urls')),\n    path('listings/', include('listings.urls')),\n    path('admin/', admin.site.urls ),\n ]",
         "detail": "ire.urls",
         "documentation": {}
     },
@@ -429,8 +429,35 @@
         "kind": 5,
         "importPath": "listings.urls",
         "description": "listings.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', views.index, name= \"index\"),\n    path('about', views.about, name= \"about\"),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name= \"listings\"),\n    path('<int:listing_id>', views.listing, name= \"listing\"),\n    path('search', views.search, name= \"search\"),\n]",
         "detail": "listings.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "listings.views",
+        "description": "listings.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'listings/listings.html')\ndef listing(request):\n    return render(request, 'listings/listing.html')\ndef search(request):\n    return render(request, 'listings/search.html')",
+        "detail": "listings.views",
+        "documentation": {}
+    },
+    {
+        "label": "listing",
+        "kind": 2,
+        "importPath": "listings.views",
+        "description": "listings.views",
+        "peekOfCode": "def listing(request):\n    return render(request, 'listings/listing.html')\ndef search(request):\n    return render(request, 'listings/search.html')",
+        "detail": "listings.views",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 2,
+        "importPath": "listings.views",
+        "description": "listings.views",
+        "peekOfCode": "def search(request):\n    return render(request, 'listings/search.html')",
+        "detail": "listings.views",
         "documentation": {}
     },
     {
