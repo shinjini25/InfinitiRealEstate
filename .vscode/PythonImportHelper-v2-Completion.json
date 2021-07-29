@@ -89,6 +89,22 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -97,6 +113,96 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -121,27 +227,11 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Realtor",
+        "importPath": "realtors.models",
+        "description": "realtors.models",
         "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "realtors.models",
         "documentation": {}
     },
     {
@@ -190,6 +280,30 @@
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
         "documentation": {}
     },
     {
@@ -276,7 +390,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'listings.apps.ListingsConfig',\n    'realtors.apps.RealtorsConfig',\n]",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'listings.apps.ListingsConfig',\n    'realtors.apps.RealtorsConfig',\n    'django.contrib.humanize'",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -339,7 +453,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS =[",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#static and media\nSTATIC_URL = '/static/'\nMEDIA_URL='/media/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -348,7 +462,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#static and media\nSTATIC_URL = '/static/'\nMEDIA_URL='/media/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n    ]",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -357,7 +471,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n]",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#static and media\nSTATIC_URL = '/static/'\nMEDIA_URL='/media/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n    ]\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -366,7 +480,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n]\n# Default primary key field type",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n#static and media\nSTATIC_URL = '/static/'\nMEDIA_URL='/media/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n    ]\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\n#media folder settings",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -375,7 +489,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "peekOfCode": "USE_TZ = True\n#static and media\nSTATIC_URL = '/static/'\nMEDIA_URL='/media/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n    ]\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\n#media folder settings\nMEDIA_ROOT= os.path.join(BASE_DIR, 'media')",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -384,7 +498,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\nMEDIA_URL='/media/'\nSTATICFILES_DIRS =[\n    os.path.join(BASE_DIR, 'ire/static'),\n    ]\nSTATIC_ROOT=os.path.join(BASE_DIR, 'static')\n#media folder settings\nMEDIA_ROOT= os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -402,7 +516,7 @@
         "kind": 5,
         "importPath": "ire.urls",
         "description": "ire.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', include('pages.urls')),\n    path('listings/', include('listings.urls')),\n    path('admin/', admin.site.urls ),\n ]",
+        "peekOfCode": "urlpatterns = [\n    path('', include('pages.urls')),\n    path('listings/', include('listings.urls')),\n    path('admin/', admin.site.urls ),\n ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "ire.urls",
         "documentation": {}
     },
@@ -416,12 +530,39 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "listings.migrations.0001_initial",
+        "description": "listings.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('realtors', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Listing',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "listings.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ListingAdmin",
+        "kind": 6,
+        "importPath": "listings.admin",
+        "description": "listings.admin",
+        "peekOfCode": "class ListingAdmin(admin.ModelAdmin):\n  list_display = ('id', 'title', 'is_published', 'price', 'list_date', 'realtor')\n  list_display_links = ('id', 'title')\n  list_filter = ('realtor',)\n  list_editable = ('is_published',)\n  search_fields = ('title', 'description', 'address', 'city', 'state', 'zipcode', 'price')\n  list_per_page = 25\nadmin.site.register(Listing ,ListingAdmin  )",
+        "detail": "listings.admin",
+        "documentation": {}
+    },
+    {
         "label": "ListingsConfig",
         "kind": 6,
         "importPath": "listings.apps",
         "description": "listings.apps",
         "peekOfCode": "class ListingsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'listings'",
         "detail": "listings.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Listing",
+        "kind": 6,
+        "importPath": "listings.models",
+        "description": "listings.models",
+        "peekOfCode": "class Listing(models.Model):\n  realtor = models.ForeignKey(Realtor, on_delete=models.DO_NOTHING)\n  title = models.CharField(max_length=200)\n  address = models.CharField(max_length=200)\n  city = models.CharField(max_length=100)\n  state = models.CharField(max_length=100)\n  zipcode = models.CharField(max_length=20)\n  description = models.TextField(blank=True)\n  price = models.IntegerField()\n  bedrooms = models.IntegerField()",
+        "detail": "listings.models",
         "documentation": {}
     },
     {
@@ -438,7 +579,7 @@
         "kind": 2,
         "importPath": "listings.views",
         "description": "listings.views",
-        "peekOfCode": "def index(request):\n    return render(request, 'listings/listings.html')\ndef listing(request):\n    return render(request, 'listings/listing.html')\ndef search(request):\n    return render(request, 'listings/search.html')",
+        "peekOfCode": "def index(request):\n    listings = Listing.objects.order_by('-list_date').filter(is_published=True)\n    paginator = Paginator(listings, 3)\n    page = request.GET.get('page')\n    paged_listings = paginator.get_page(page)\n    context = {\n    'listings': paged_listings\n    }\n    return render(request, 'listings/listings.html', context)\ndef listing(request, listing_id):",
         "detail": "listings.views",
         "documentation": {}
     },
@@ -447,7 +588,7 @@
         "kind": 2,
         "importPath": "listings.views",
         "description": "listings.views",
-        "peekOfCode": "def listing(request):\n    return render(request, 'listings/listing.html')\ndef search(request):\n    return render(request, 'listings/search.html')",
+        "peekOfCode": "def listing(request, listing_id):\n    return render(request, 'listings/listing.html')\ndef search(request):\n    return render(request, 'listings/search.html')",
         "detail": "listings.views",
         "documentation": {}
     },
@@ -497,12 +638,39 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "realtors.migrations.0001_initial",
+        "description": "realtors.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Realtor',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=200)),",
+        "detail": "realtors.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "RealtorAdmin",
+        "kind": 6,
+        "importPath": "realtors.admin",
+        "description": "realtors.admin",
+        "peekOfCode": "class RealtorAdmin(admin.ModelAdmin):\n  list_display = ('id', 'name', 'email', 'hire_date')\n  list_display_links = ('id', 'name')\n  search_fields = ('name',)\n  list_per_page = 25  \nadmin.site.register(Realtor, RealtorAdmin)",
+        "detail": "realtors.admin",
+        "documentation": {}
+    },
+    {
         "label": "RealtorsConfig",
         "kind": 6,
         "importPath": "realtors.apps",
         "description": "realtors.apps",
         "peekOfCode": "class RealtorsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'realtors'",
         "detail": "realtors.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Realtor",
+        "kind": 6,
+        "importPath": "realtors.models",
+        "description": "realtors.models",
+        "peekOfCode": "class Realtor(models.Model):\n  name = models.CharField(max_length=200)\n  photo = models.ImageField(upload_to='photos/%Y/%m/%d/')\n  description = models.TextField(blank=True)\n  phone = models.CharField(max_length=20)\n  email = models.CharField(max_length=50)\n  is_mvp = models.BooleanField(default=False)\n  hire_date = models.DateTimeField(default=datetime.now, blank=True)\n  def __str__(self):\n    return self.name",
+        "detail": "realtors.models",
         "documentation": {}
     },
     {
