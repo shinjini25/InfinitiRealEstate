@@ -138,6 +138,15 @@
         "documentation": {}
     },
     {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -235,6 +244,14 @@
         "documentation": {}
     },
     {
+        "label": "Realtor",
+        "importPath": "realtors.models",
+        "description": "realtors.models",
+        "isExtraImport": true,
+        "detail": "realtors.models",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -312,6 +329,14 @@
         "description": "django.http",
         "isExtraImport": true,
         "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "Listing",
+        "importPath": "listings.models",
+        "description": "listings.models",
+        "isExtraImport": true,
+        "detail": "listings.models",
         "documentation": {}
     },
     {
@@ -624,7 +649,7 @@
         "kind": 2,
         "importPath": "pages.views",
         "description": "pages.views",
-        "peekOfCode": "def index(request):\n    return render(request, 'pages/index.html')\ndef about(request):\n    return render(request, 'pages/about.html')",
+        "peekOfCode": "def index(request):\n    listings = Listing.objects.order_by('-list_date').filter(is_published=True)[:3]\n    context= {\n        'listings': listings\n    }\n    return render(request, 'pages/index.html', context)\ndef about(request):\n    #Get all realtors\n    realtors= Realtor.objects.order_by('-hire_date')\n    #Get MVP",
         "detail": "pages.views",
         "documentation": {}
     },
@@ -633,7 +658,7 @@
         "kind": 2,
         "importPath": "pages.views",
         "description": "pages.views",
-        "peekOfCode": "def about(request):\n    return render(request, 'pages/about.html')",
+        "peekOfCode": "def about(request):\n    #Get all realtors\n    realtors= Realtor.objects.order_by('-hire_date')\n    #Get MVP\n    mvp_realtors=Realtor.objects.all().filter(is_mvp= True)\n    context ={\n        'realtors': realtors,\n        'mvp_realtors': mvp_realtors\n    }\n    return render(request, 'pages/about.html', context)",
         "detail": "pages.views",
         "documentation": {}
     },
