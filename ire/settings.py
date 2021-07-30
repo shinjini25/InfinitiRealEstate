@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
-    'django.contrib.humanize'
+    'pages.apps.PagesConfig',
+    'accounts.apps.AccountsConfig',
+    'django.contrib.humanize',
      
 ]
 
@@ -142,4 +144,10 @@ MEDIA_ROOT= os.path.join(BASE_DIR, 'media')
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Messages
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger'
+}

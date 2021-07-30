@@ -1,59 +1,187 @@
 [
     {
-        "label": "os",
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "django.db",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "get_asgi_application",
-        "importPath": "django.core.asgi",
-        "description": "django.core.asgi",
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.core.asgi",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "pathlib",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -86,6 +214,87 @@
         "description": "django.urls",
         "isExtraImport": true,
         "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
         "documentation": {}
     },
     {
@@ -138,71 +347,6 @@
         "documentation": {}
     },
     {
-        "label": "django.db",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db",
-        "description": "django.db",
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "django.db.models.deletion",
         "kind": 6,
         "isExtraImport": true,
@@ -212,30 +356,6 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
         "label": "Realtor",
         "importPath": "realtors.models",
         "description": "realtors.models",
@@ -249,54 +369,6 @@
         "description": "realtors.models",
         "isExtraImport": true,
         "detail": "realtors.models",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -340,6 +412,30 @@
         "documentation": {}
     },
     {
+        "label": "bedroom_choices",
+        "importPath": "listings.choices",
+        "description": "listings.choices",
+        "isExtraImport": true,
+        "detail": "listings.choices",
+        "documentation": {}
+    },
+    {
+        "label": "price_choices",
+        "importPath": "listings.choices",
+        "description": "listings.choices",
+        "isExtraImport": true,
+        "detail": "listings.choices",
+        "documentation": {}
+    },
+    {
+        "label": "state_choices",
+        "importPath": "listings.choices",
+        "description": "listings.choices",
+        "isExtraImport": true,
+        "detail": "listings.choices",
+        "documentation": {}
+    },
+    {
         "label": "warnings",
         "kind": 6,
         "isExtraImport": true,
@@ -363,6 +459,60 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "accounts.apps",
+        "description": "accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "accounts.urls",
+        "description": "accounts.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login', views.login, name= \"login\"),\n    path('register', views.register, name= \"register\"),\n    path('logout', views.logout, name= \"logout\"),\n    path('dashboard', views.dashboard, name= \"dashboard\"),\n]",
+        "detail": "accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "def register(request):\n    if request.method==\"POST\":\n        #Register user logic\n        return redirect('register')\n    else:\n        return render(request, 'accounts/register.html')\ndef login(request):\n    if request.method==\"POST\":\n        #Login user logic\n        return redirect('login')",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "def login(request):\n    if request.method==\"POST\":\n        #Login user logic\n        return redirect('login')\n    else:\n        return render(request, 'accounts/login.html')\ndef logout(request):\n    return redirect('index')\ndef dashboard(request):\n    return render(request, 'accounts/dashboard.html')",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "def logout(request):\n    return redirect('index')\ndef dashboard(request):\n    return render(request, 'accounts/dashboard.html')",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "def dashboard(request):\n    return render(request, 'accounts/dashboard.html')",
+        "detail": "accounts.views",
         "documentation": {}
     },
     {
@@ -415,7 +565,7 @@
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'listings.apps.ListingsConfig',\n    'realtors.apps.RealtorsConfig',\n    'django.contrib.humanize'",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'listings.apps.ListingsConfig',\n    'realtors.apps.RealtorsConfig',\n    'pages.apps.PagesConfig',",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -528,11 +678,11 @@
         "documentation": {}
     },
     {
-        "label": "DEFAULT_AUTO_FIELD",
+        "label": "MESSAGE_TAGS",
         "kind": 5,
         "importPath": "ire.settings",
         "description": "ire.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "MESSAGE_TAGS = {\n    messages.ERROR: 'danger'\n}",
         "detail": "ire.settings",
         "documentation": {}
     },
@@ -541,7 +691,7 @@
         "kind": 5,
         "importPath": "ire.urls",
         "description": "ire.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', include('pages.urls')),\n    path('listings/', include('listings.urls')),\n    path('admin/', admin.site.urls ),\n ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('', include('pages.urls')),\n    path('listings/', include('listings.urls')),\n    path('admin/', admin.site.urls ),\n    path('accounts/', include('accounts.urls')),\n ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "ire.urls",
         "documentation": {}
     },
@@ -582,6 +732,33 @@
         "documentation": {}
     },
     {
+        "label": "bedroom_choices",
+        "kind": 5,
+        "importPath": "listings.choices",
+        "description": "listings.choices",
+        "peekOfCode": "bedroom_choices = {\n  '1':1,\n  '2':2,\n  '3':3,\n  '4':4,\n  '5':5,\n  '6':6,\n  '7':7,\n  '8':8,\n  '9':9,",
+        "detail": "listings.choices",
+        "documentation": {}
+    },
+    {
+        "label": "price_choices",
+        "kind": 5,
+        "importPath": "listings.choices",
+        "description": "listings.choices",
+        "peekOfCode": "price_choices = {\n  '100000':'$100,000',\n  '200000':'$200,000',\n  '300000':'$300,000',\n  '400000':'$400,000',\n  '500000':'$500,000',\n  '600000':'$600,000',\n  '700000':'$700,000',\n  '800000':'$800,000',\n  '900000':'$900,000',",
+        "detail": "listings.choices",
+        "documentation": {}
+    },
+    {
+        "label": "state_choices",
+        "kind": 5,
+        "importPath": "listings.choices",
+        "description": "listings.choices",
+        "peekOfCode": "state_choices = {\n        'AK': 'Alaska',\n        'AL': 'Alabama',\n        'AR': 'Arkansas',\n        'AS': 'American Samoa',\n        'AZ': 'Arizona',\n        'CA': 'California',\n        'CO': 'Colorado',\n        'CT': 'Connecticut',\n        'DC': 'District of Columbia',",
+        "detail": "listings.choices",
+        "documentation": {}
+    },
+    {
         "label": "Listing",
         "kind": 6,
         "importPath": "listings.models",
@@ -604,7 +781,7 @@
         "kind": 2,
         "importPath": "listings.views",
         "description": "listings.views",
-        "peekOfCode": "def index(request):\n    listings = Listing.objects.order_by('-list_date').filter(is_published=True)\n    paginator = Paginator(listings, 3)\n    page = request.GET.get('page')\n    paged_listings = paginator.get_page(page)\n    context = {\n    'listings': paged_listings\n    }\n    return render(request, 'listings/listings.html', context)\ndef listing(request, listing_id):",
+        "peekOfCode": "def index(request):\n    listings = Listing.objects.order_by('-list_date').filter(is_published=True)\n    paginator = Paginator(listings, 6)\n    page = request.GET.get('page')\n    paged_listings = paginator.get_page(page)\n    context = {\n    'listings': paged_listings\n    }\n    return render(request, 'listings/listings.html', context)\ndef listing(request, listing_id):",
         "detail": "listings.views",
         "documentation": {}
     },
@@ -613,7 +790,7 @@
         "kind": 2,
         "importPath": "listings.views",
         "description": "listings.views",
-        "peekOfCode": "def listing(request, listing_id):\n    return render(request, 'listings/listing.html')\ndef search(request):\n    return render(request, 'listings/search.html')",
+        "peekOfCode": "def listing(request, listing_id):\n    listing= get_object_or_404(Listing, pk=listing_id)\n    context= {\n        'listing': listing\n    }\n    return render(request, 'listings/listing.html', context)\ndef search(request):\n    queryset_list= Listing.objects.order_by('-list_date')\n    # For Keywords\n    if 'keywords' in request.GET:",
         "detail": "listings.views",
         "documentation": {}
     },
@@ -622,7 +799,7 @@
         "kind": 2,
         "importPath": "listings.views",
         "description": "listings.views",
-        "peekOfCode": "def search(request):\n    return render(request, 'listings/search.html')",
+        "peekOfCode": "def search(request):\n    queryset_list= Listing.objects.order_by('-list_date')\n    # For Keywords\n    if 'keywords' in request.GET:\n        keywords = request.GET['keywords']\n        if keywords:\n            # case insensitive and contains the keyword\n            queryset_list = queryset_list.filter(description__icontains=keywords)\n    # For City  \n    if 'city' in request.GET:",
         "detail": "listings.views",
         "documentation": {}
     },
@@ -649,7 +826,7 @@
         "kind": 2,
         "importPath": "pages.views",
         "description": "pages.views",
-        "peekOfCode": "def index(request):\n    listings = Listing.objects.order_by('-list_date').filter(is_published=True)[:3]\n    context= {\n        'listings': listings\n    }\n    return render(request, 'pages/index.html', context)\ndef about(request):\n    #Get all realtors\n    realtors= Realtor.objects.order_by('-hire_date')\n    #Get MVP",
+        "peekOfCode": "def index(request):\n    listings = Listing.objects.order_by('-list_date').filter(is_published=True)[:3]\n    context= {\n        'listings': listings,\n        'state_choices': state_choices,\n        'price_choices': price_choices,\n        'bedroom_choices': bedroom_choices,\n    }\n    return render(request, 'pages/index.html', context)\ndef about(request):",
         "detail": "pages.views",
         "documentation": {}
     },
