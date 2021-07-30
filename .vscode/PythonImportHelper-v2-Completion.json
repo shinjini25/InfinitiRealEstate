@@ -8,6 +8,22 @@
         "documentation": {}
     },
     {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -265,6 +281,14 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -484,7 +508,7 @@
         "kind": 2,
         "importPath": "accounts.views",
         "description": "accounts.views",
-        "peekOfCode": "def register(request):\n    if request.method==\"POST\":\n        #Register user logic\n        return redirect('register')\n    else:\n        return render(request, 'accounts/register.html')\ndef login(request):\n    if request.method==\"POST\":\n        #Login user logic\n        return redirect('login')",
+        "peekOfCode": "def register(request):\n    if request.method==\"POST\":\n        #get form fields\n            # Get form values\n        first_name = request.POST['first_name']\n        last_name = request.POST['last_name']\n        username = request.POST['username']\n        email = request.POST['email']\n        password = request.POST['password']\n        password2 = request.POST['password2']",
         "detail": "accounts.views",
         "documentation": {}
     },
@@ -493,7 +517,7 @@
         "kind": 2,
         "importPath": "accounts.views",
         "description": "accounts.views",
-        "peekOfCode": "def login(request):\n    if request.method==\"POST\":\n        #Login user logic\n        return redirect('login')\n    else:\n        return render(request, 'accounts/login.html')\ndef logout(request):\n    return redirect('index')\ndef dashboard(request):\n    return render(request, 'accounts/dashboard.html')",
+        "peekOfCode": "def login(request):\n    if request.method==\"POST\":\n        username = request.POST['username']\n        password = request.POST['password']\n        #user aunthenticate\n        user = auth.authenticate(username=username, password=password)\n        #if user exists, redirect to dashboard\n        if user is not None:\n            auth.login(request, user)\n            messages.success(request, 'You are now logged in')",
         "detail": "accounts.views",
         "documentation": {}
     },
