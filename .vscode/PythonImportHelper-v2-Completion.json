@@ -56,6 +56,22 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -129,6 +145,30 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -190,6 +230,22 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -257,6 +313,14 @@
         "documentation": {}
     },
     {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "get_object_or_404",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -286,6 +350,55 @@
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
         "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "listing",
+        "importPath": "listings.views",
+        "description": "listings.views",
+        "isExtraImport": true,
+        "detail": "listings.views",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "importPath": "accounts.urls",
+        "description": "accounts.urls",
+        "isExtraImport": true,
+        "detail": "accounts.urls",
         "documentation": {}
     },
     {
@@ -343,31 +456,6 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -526,7 +614,7 @@
         "kind": 2,
         "importPath": "accounts.views",
         "description": "accounts.views",
-        "peekOfCode": "def logout(request):\n    return redirect('index')\ndef dashboard(request):\n    return render(request, 'accounts/dashboard.html')",
+        "peekOfCode": "def logout(request):\n    if request.method=='POST':\n        auth.logout(request)\n        messages.success(request, 'Successfully logged out')\n        return redirect('index')\ndef dashboard(request):\n    return render(request, 'accounts/dashboard.html')",
         "detail": "accounts.views",
         "documentation": {}
     },
@@ -537,6 +625,51 @@
         "description": "accounts.views",
         "peekOfCode": "def dashboard(request):\n    return render(request, 'accounts/dashboard.html')",
         "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "contacts.migrations.0001_initial",
+        "description": "contacts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Contact',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('listing', models.CharField(max_length=150)),",
+        "detail": "contacts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ContactAdmin",
+        "kind": 6,
+        "importPath": "contacts.admin",
+        "description": "contacts.admin",
+        "peekOfCode": "class ContactAdmin(admin.ModelAdmin):\n  list_display = ('id', 'name', 'listing', 'email', 'contact_date')\n  list_display_links = ('id', 'name')\n  search_fields = ('name', 'email', 'listing')\n  list_per_page = 20\nadmin.site.register(Contact, ContactAdmin)",
+        "detail": "contacts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ContactsConfig",
+        "kind": 6,
+        "importPath": "contacts.apps",
+        "description": "contacts.apps",
+        "peekOfCode": "class ContactsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'contacts'",
+        "detail": "contacts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Contact",
+        "kind": 6,
+        "importPath": "contacts.models",
+        "description": "contacts.models",
+        "peekOfCode": "class Contact(models.Model):\n    listing= models.CharField(max_length = 150)\n    listing_id= models.IntegerField()\n    name= models.CharField(max_length= 100)\n    email= models.CharField(max_length= 100)\n    phone= models.CharField(max_length= 100)\n    message = models.TextField(blank=True)\n    contact_date= models.DateTimeField(default=datetime.now, blank= True) \n    user_id= models.IntegerField(blank= True)\n    def __str__(self):",
+        "detail": "contacts.models",
+        "documentation": {}
+    },
+    {
+        "label": "contact",
+        "kind": 2,
+        "importPath": "contacts.views",
+        "description": "contacts.views",
+        "peekOfCode": "def contact(request):\n    return",
+        "detail": "contacts.views",
         "documentation": {}
     },
     {
@@ -715,7 +848,7 @@
         "kind": 5,
         "importPath": "ire.urls",
         "description": "ire.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', include('pages.urls')),\n    path('listings/', include('listings.urls')),\n    path('admin/', admin.site.urls ),\n    path('accounts/', include('accounts.urls')),\n ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('', include('pages.urls')),\n    path('listings/', include('listings.urls')),\n    path('admin/', admin.site.urls ),\n    path('accounts/', include('accounts.urls')),\n    path('contacts/', include('contacts.urls')),\n ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "ire.urls",
         "documentation": {}
     },
