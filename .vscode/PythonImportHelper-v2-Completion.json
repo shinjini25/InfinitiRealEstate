@@ -32,6 +32,14 @@
         "documentation": {}
     },
     {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -313,6 +321,14 @@
         "documentation": {}
     },
     {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -399,6 +415,14 @@
         "description": "accounts.urls",
         "isExtraImport": true,
         "detail": "accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
         "documentation": {}
     },
     {
@@ -668,7 +692,7 @@
         "kind": 2,
         "importPath": "contacts.views",
         "description": "contacts.views",
-        "peekOfCode": "def contact(request):\n    return",
+        "peekOfCode": "def contact(request):\n    if request.method=='POST':\n        listing_id = request.POST['listing_id']\n        listing = request.POST['listing']\n        name = request.POST['name']\n        email = request.POST['email']\n        phone = request.POST['phone']\n        message = request.POST['message']\n        user_id = request.POST['user_id']\n        realtor_email = request.POST['realtor_email']",
         "detail": "contacts.views",
         "documentation": {}
     },
